@@ -9,7 +9,7 @@ const TELEGRAM_USER_IDS = [
 ];
 
 // Ссылка на API Куфара (ты её уже нашёл через F12)
-const KUFAR_API_URL = 'https://api.kufar.by/search-api/v2/search/rendered-paginated?cat=1010&cur=BYR&gtsy=country-belarus~province-grodnenskaja_oblast~locality-grodno&lang=ru&prc=r%3A0%2C500000&size=30&typ=let';
+const KUFAR_API_URL = 'https://api.kufar.by/search-api/v2/search/rendered-paginated?cat=1010&cur=BYR&gtsy=country-belarus~province-grodnenskaja_oblast~locality-grodno&lang=ru&prc=r%3A0%2C60000&size=30&typ=let&sort=lst.d';
 
 // Тут храним ID объявлений, которые уже видели, чтобы не спамить
 const seenAds = new Set();
