@@ -2,7 +2,11 @@ require('dotenv').config();
 const fetch = require('node-fetch');
 
 // Переменные из .env
-const TELEGRAM_BOT_TOKEN = process.env.TELEGRAM_BOT_TOKEN;
+const TELEGRAM_BOT_TOKEN = '8626549975:AAFsR2Bl3jXMEuDHeKz0lAF5dWb8jY249w8';  // вставь сюда свой токен из .env
+const TELEGRAM_USER_IDS = [
+    '297879535',   // твой ID
+    '1242880325'   // второй ID
+];
 const TELEGRAM_USER_IDS = [
     process.env.TELEGRAM_USER_ID,
     '1242880325'  // вставь сюда второй ID
