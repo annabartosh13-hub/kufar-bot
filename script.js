@@ -7,10 +7,7 @@ const TELEGRAM_USER_IDS = [
     '297879535',   // твой ID
     '1242880325'   // второй ID
 ];
-const TELEGRAM_USER_IDS = [
-    process.env.TELEGRAM_USER_ID,
-    '1242880325'  // вставь сюда второй ID
-];
+
 
 // Ссылка на API Куфара (ты её уже нашёл через F12)
 const KUFAR_API_URL = 'https://api.kufar.by/search-api/v2/search/rendered-paginated?cat=1010&cur=BYR&gtsy=country-belarus~province-grodnenskaja_oblast~locality-grodno&lang=ru&prc=r%3A0%2C60000&size=30&typ=let&sort=lst.d';
